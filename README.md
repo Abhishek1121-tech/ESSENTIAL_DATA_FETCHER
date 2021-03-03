@@ -13,3 +13,5 @@ After done with Prerequisite
 git clone https://github.com/Abhishek1121-tech/ESSENTIAL_DATA_FETCHER.git
 cd ESSENTIAL_DATA_FETCHER
 python3 DataMiner.py
+
+- [ai/size-limit](https://github.com/ai/size-limit#readme) - Project logo, clear description, screenshot, step-by-step installing instructions.
