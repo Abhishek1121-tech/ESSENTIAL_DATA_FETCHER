@@ -30,11 +30,9 @@ class DataMiner:
                     vendor_price_list=self.vendor_url_defination_caller(vendor)
                     #print(url+""+cookie_header+""+raw_data+""+str(price))
                     for v_p in vendor_price_list:
-                        dict_data[config_dict[Constants.STRING_APP]['data_dict_key_name']].append((product_name+Constants.DOLLAR+product_type+Constants.DOLLAR+v_p[Constants.NUM_0]+Constants.DOLLAR+str(v_p[Constants.NUM_1])).split(Constants.DOLLAR))
-                    
+                        dict_data[config_dict[Constants.STRING_APP]['data_dict_key_name']].append((product_name+Constants.DOLLAR+product_type+Constants.DOLLAR+v_p[Constants.NUM_0]+Constants.DOLLAR+str(v_p[Constants.NUM_1])).split(Constants.DOLLAR))            
         else:
             print(data)
-        
         print(dict_data)
         
     def vendor_url_defination_caller(self,vendor):
