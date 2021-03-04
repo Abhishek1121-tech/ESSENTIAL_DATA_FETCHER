@@ -78,11 +78,18 @@ class Constants:
 	STR_VALUE="value"
 	STRING_DATE="Date"
 	STR_SUCCESS="SUCCESS"
+	STR_SKU_G="sku_g"
+	STR_SKU_U="sku_u"
+	STR_VEG_ORG="Veggies-Organic"
+	STR_FRUITS="Fruits"
+	STR_VEG_NATURO="Veggies-Naturoponic"
+	STR_NOT_AVAILABLE="NA"
 
 	WRD_CITY="city"
 
 	NUM_1024=1024
 	NUM_2=2
+	NUM_3=3
 	NUM_0=0
 	NUM_1=1
 	NUM_4=4

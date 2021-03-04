@@ -24,14 +24,28 @@ class DataMiner:
         data = Utils.loadDataFromFile(raw_file_path)
         if data != Constants.EXCEPTION_LOAD:
             for info in data[Constants.INFO_DETAIL]:
+                #print(info)
+                data_dict_info = {}
                 product_name=info[Constants.STR_PRODUCT_NAME]
+                data_dict_info[Constants.STR_PRODUCT_NAME]=product_name
                 product_type=info[Constants.STR_PRODUCT_TYPE]
+                #data_dict_info[Constants.STR_PRODUCT_TYPE]=product_type
+                sku_g=info[Constants.STR_SKU_G]
+                data_dict_info[Constants.STR_SKU_G]=sku_g
+                sku_u=info[Constants.STR_SKU_U]
+                data_dict_info[Constants.STR_SKU_U]=sku_u
+                vendor_list_in_dict=[]
                 for vendor in info[Constants.STR_VENDOR_LIST]:
                     vendor_name=vendor[Constants.STR_V_NAME]
                     vendor_price_list=self.vendor_url_defination_caller(vendor)
                     #print(url+""+cookie_header+""+raw_data+""+str(price))
                     for v_p in vendor_price_list:
-                        dict_data[config_dict[Constants.STRING_APP]['data_dict_key_name']].append((product_name+Constants.DOLLAR+product_type+Constants.DOLLAR+v_p[Constants.NUM_0]+Constants.DOLLAR+str(v_p[Constants.NUM_1])).split(Constants.DOLLAR))            
+                        vendor_list_in_dict.append((v_p[Constants.NUM_0]+Constants.DOLLAR+str(v_p[Constants.NUM_1])).split(Constants.DOLLAR))           
+                #print(vendor_list_in_dict)
+                data_dict_info[Constants.STR_VENDOR_LIST]=vendor_list_in_dict
+                vendor_list_in_dict=[]
+                dict_data[product_type].append(data_dict_info)
+                data_dict_info = {}
         else:
             print(data)
         DataPersister.recDataPersist(dict_data)

@@ -3,6 +3,21 @@
     {
         "product_name": "Potato",
         "product_type": "Veggies-Organic",
+        "sku_g":"500",
+        "sku_u":"4",
+        "vendor_list": [
+            {"vendor_name":"Gournet Garden","product_name":"potato","product_id":"potato","product_query":"potato","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"},
+            {"vendor_name":"Big basket","product_name":"potato","product_id":"10000159","product_query":"fresho-potato-1-kg","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
+            {"vendor_name":"Big basket Organic","product_name":"potato","product_id":"10000159","product_query":"fresho-potato-1-kg","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
+            {"vendor_name":"Nature's Basket","product_name":"potato","product_id":"25915_0_0_0","product_query":"ICELAND-SWEET-POTATO-FRIES-250G","location_name":"banglore","location_id":"NA","location_query":"nbloc=cty=KRWR48YVgJEmKvZUN3TZeQ==&ctyid=Vthxifmkz8MHpo2bEeFNUQ==&nwidn=Whv+lxHLbLjPs+Q/Tqsi3w==&pin=SA1geloX+CMrJRFXFEIeOQ==&ispn=C2W0fZgPy0KdDuCafMusSg==&isRapid=C2W0fZgPy0KdDuCafMusSg==","category_id":"NA"},
+            {"vendor_name":"Townness","product_name":"potato","product_id":"40241","product_query":"NA","location_name":"banglore","location_id":"NA","location_query":"NA","category_id":"363"}
+        ]
+    },
+    {
+        "product_name": "Potato-a",
+        "product_type": "Veggies-Organic",
+        "sku_g":"500",
+        "sku_u":"4",
         "vendor_list": [
             {"vendor_name":"Gournet Garden","product_name":"potato","product_id":"potato","product_query":"potato","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"},
             {"vendor_name":"Big basket","product_name":"potato","product_id":"10000159","product_query":"fresho-potato-1-kg","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
@@ -14,6 +29,19 @@
     {
         "product_name": "Potato",
         "product_type": "Veggies-Naturoponic",
+        "sku_g":"500",
+        "sku_u":"4",
+        "vendor_list": [
+            {"vendor_name":"Gournet Garden","product_name":"potato","product_id":"potato","product_query":"potato","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"},
+            {"vendor_name":"Big basket","product_name":"potato","product_id":"10000159","product_query":"fresho-potato-1-kg","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
+            {"vendor_name":"Nature's Basket","product_name":"potato","product_id":"25915_0_0_0","product_query":"ICELAND-SWEET-POTATO-FRIES-250G","location_name":"banglore","location_id":"NA","location_query":"nbloc=cty=KRWR48YVgJEmKvZUN3TZeQ==&ctyid=Vthxifmkz8MHpo2bEeFNUQ==&nwidn=Whv+lxHLbLjPs+Q/Tqsi3w==&pin=SA1geloX+CMrJRFXFEIeOQ==&ispn=C2W0fZgPy0KdDuCafMusSg==&isRapid=C2W0fZgPy0KdDuCafMusSg==","category_id":"NA"},
+            {"vendor_name":"Townness","product_name":"potato","product_id":"40241","product_query":"NA","location_name":"banglore","location_id":"NA","location_query":"NA","category_id":"363"}
+        ]
+    },{
+        "product_name": "Potato-a",
+        "product_type": "Veggies-Naturoponic",
+        "sku_g":"500",
+        "sku_u":"4",
         "vendor_list": [
             {"vendor_name":"Gournet Garden","product_name":"potato","product_id":"potato","product_query":"potato","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"},
             {"vendor_name":"Big basket","product_name":"potato","product_id":"10000159","product_query":"fresho-potato-1-kg","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
