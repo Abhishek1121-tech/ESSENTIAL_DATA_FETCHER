@@ -28,16 +28,16 @@ class DataPersister:
     
     def writeForRow(file_name,workbook):
         row_count = []
-        row_fist_value=["Last Update",datetime.today()]
+        row_fist_value=[Constants.ROW_VALUE_LAST_UPDATE,datetime.today()]
         row_count.append(row_fist_value)
         row_count.append(DataPersister.vendor_name_list)
         print(row_count)
         for count in row_count:
             workbook.active.append(count)
         
-        for col_range in range(4, len(DataPersister.vendor_name_list)+1):
+        for col_range in range(Constants.NUM_4, len(DataPersister.vendor_name_list)+Constants.NUM_1):
             cell_title = workbook.active.cell(Constants.NUM_2, col_range)
-            cell_title.fill = PatternFill(start_color="FF0000", end_color="FF0000", fill_type="solid")
+            cell_title.fill = PatternFill(start_color=Constants.FILL_START_COLOR, end_color=Constants.FILL_END_COLOR, fill_type=Constants.FILL_TYPE)
         
         workbook.save(file_name)
 

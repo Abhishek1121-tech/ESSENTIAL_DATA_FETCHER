@@ -64,6 +64,7 @@ class Constants:
 
 	EXCEPTION_LOAD='Exception while loading data'
 	EXCEPTION_QUERY='Exception while quering website'
+	EXCEPTION_FILENAME='Name is Empty'
 
 	HTTP_METHOD_TYPE_GET="GET"
 	HTTP_METHOD_TYPE_POST="POST"
@@ -75,6 +76,8 @@ class Constants:
 	STR_V_NAME="vendor_name"
 	STR_ID="id"
 	STR_VALUE="value"
+	STRING_DATE="Date"
+	STR_SUCCESS="SUCCESS"
 
 	WRD_CITY="city"
 
@@ -84,6 +87,12 @@ class Constants:
 	NUM_1=1
 	NUM_4=4
 	NUM_100=100
+
+	FILL_START_COLOR="FF0000"
+	FILL_END_COLOR="FF0000"
+	FILL_TYPE="solid"
+
+	ROW_VALUE_LAST_UPDATE="Last Update"
 
 	
 

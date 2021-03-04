@@ -8,6 +8,7 @@ from Bigbasket_Defination import Bigbasket_Defination
 from Natures_Defination import Natures_Defination
 from Townness_Defination import Townness_Defination
 from Bigbasket_Organic_Defination import Bigbasket_Organic_Defination
+from DataPersister import DataPersister
 
 
 class DataMiner:
@@ -33,7 +34,7 @@ class DataMiner:
                         dict_data[config_dict[Constants.STRING_APP]['data_dict_key_name']].append((product_name+Constants.DOLLAR+product_type+Constants.DOLLAR+v_p[Constants.NUM_0]+Constants.DOLLAR+str(v_p[Constants.NUM_1])).split(Constants.DOLLAR))            
         else:
             print(data)
-        print(dict_data)
+        DataPersister.recDataPersist(dict_data)
         
     def vendor_url_defination_caller(self,vendor):
         #print(vendor[Constants.STR_V_NAME])
