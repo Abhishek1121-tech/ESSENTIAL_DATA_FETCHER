@@ -1,4 +1,4 @@
-# ESSENTIAL_DATA_FETCHER
+# ESSENTIAL DATA FETCHER
 ## Prerequisite
 	- [1] python version 3
 	- [2] ConfigReader module 
