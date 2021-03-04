@@ -5,6 +5,8 @@
 	- [3] BeautifulSoup module
 	- [4] json module
 	- [5] re module
+	- [6] openpyxl module
+	- [7] xlsxwriter module
 	- [6] Internet Connectivity 
 	
 ## On Linux 
