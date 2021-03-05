@@ -1,12 +1,10 @@
 # ESSENTIAL DATA FETCHER
 ## Prerequisite
 	- [1] python version 3
-	- [2] ConfigReader module 
-	- [3] BeautifulSoup module
-	- [4] json module
-	- [5] re module
-	- [6] openpyxl module
-	- [7] xlsxwriter module
+	- [2] ConfigReader module  (pip3 install configobj)
+	- [3] BeautifulSoup module (pip3 install beautifulsoup4==4.8.1)
+	- [4] openpyxl module (pip3 install xlsxwriter)
+	- [5] xlsxwriter module (pip3 install openpyxl)
 	- [6] Internet Connectivity 
 	
 ## On Linux 
