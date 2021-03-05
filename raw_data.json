@@ -14,6 +14,16 @@
         ]
     },
     {
+        "product_name": "Oil",
+        "product_type": "Veggies-Organic",
+        "sku_g":"500",
+        "sku_u":"4",
+        "vendor_list": [
+            {"vendor_name":"Big basket","product_name":"OIL","product_id":"276756","product_query":"fortune-kachi-ghani-mustard-oil-1-l-pet-bottle","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"}
+           
+        ]
+    },
+    {
         "product_name": "Potato-a",
         "product_type": "Veggies-Organic",
         "sku_g":"500",
