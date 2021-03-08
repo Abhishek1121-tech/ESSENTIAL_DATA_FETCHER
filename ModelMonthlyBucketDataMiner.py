@@ -8,10 +8,10 @@ from Bigbasket_Defination import Bigbasket_Defination
 from Natures_Defination import Natures_Defination
 from Townness_Defination import Townness_Defination
 from Bigbasket_Organic_Defination import Bigbasket_Organic_Defination
-from DataPersister import DataPersister
+from ModelMonthyBucketDataPersister import ModelMonthyBucketDataPersister
 
 
-class DataMiner:
+class ModelMonthlyBucketDataMiner:
 
     def __init__(self):
         self.start()
@@ -48,7 +48,7 @@ class DataMiner:
                 data_dict_info = {}
         else:
             print(data)
-        DataPersister.recDataPersist(dict_data)
+        ModelMonthyBucketDataPersister.recDataPersist(dict_data)
         
     def vendor_url_defination_caller(self,vendor):
         #print(vendor[Constants.STR_V_NAME])
@@ -90,4 +90,4 @@ class DataMiner:
 
         
 
-dataminer=DataMiner()
+modelMonthlyBucketDataMiner=ModelMonthlyBucketDataMiner()
