@@ -1,10 +1,99 @@
 {
     "info_detail":[
     {
-        "product_name": "Potato",
-        "product_type": "Veggies-Organic",
+        "product_name": "Apple - Fuji",
+        "product_type": "Fruits",
         "sku_g":"500",
-        "sku_u":"4",
+        "sku_u":"NA",
+        "vendor_list": [
+            {"vendor_name":"Big basket","product_name":"Apple - Fuji","product_id":"40033815","product_query":"fresho-apple-fuji-regular-4-pcs-approx500g650g","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"}
+        ]
+    },
+    {
+        "product_name": "Apple - Royal Gala",
+        "product_type": "Fruits",
+        "sku_g":"NA",
+        "sku_u":"3",
+        "vendor_list": [
+            {"vendor_name":"Big basket","product_name":"Apple - Royal Gala","product_id":"40033823","product_query":"fresho-apple-royal-gala-regular-4-pcs","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"}
+        ]
+    },{
+        "product_name": "Guava",
+        "product_type": "Fruits",
+        "sku_g":"500",
+        "sku_u":"NA",
+        "vendor_list": [
+            {"vendor_name":"Big basket","product_name":"Guava","product_id":"10000370","product_query":"fresho-guava-500-g","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"}
+        ]
+    },
+    {
+        "product_name": "Chiku",
+        "product_type": "Fruits",
+        "sku_g":"500",
+        "sku_u":"NA",
+        "vendor_list": [
+            {"vendor_name":"Big basket","product_name":"Chiku","product_id":"10000181","product_query":"fresho-sapota-500-g","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
+            {"vendor_name":"Big basket Organic","product_name":"Chiku","product_id":"40022646","product_query":"fresho-sapota-organically-grown-500-g","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
+            {"vendor_name":"Nature's Basket","product_name":"Chiku","product_id":"4997_0_0_0","product_query":"Chikoo","location_name":"banglore","location_id":"NA","location_query":"nbloc=cty=KRWR48YVgJEmKvZUN3TZeQ==&ctyid=Vthxifmkz8MHpo2bEeFNUQ==&nwidn=Whv+lxHLbLjPs+Q/Tqsi3w==&pin=SA1geloX+CMrJRFXFEIeOQ==&ispn=C2W0fZgPy0KdDuCafMusSg==&isRapid=C2W0fZgPy0KdDuCafMusSg==","category_id":"NA"}
+        ]
+    },
+    {
+        "product_name": "Pineapple",
+        "product_type": "Fruits",
+        "sku_g":"800",
+        "sku_u":"NA",
+        "vendor_list": [
+            {"vendor_name":"Big basket","product_name":"Pineapple","product_id":"10000156","product_query":"fresho-pineapple-1-pc","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
+            {"vendor_name":"Big basket Organic","product_name":"Pineapple","product_id":"40023483","product_query":"fresho-pineapple-organically-grown-1-pc","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
+            {"vendor_name":"Nature's Basket","product_name":"Pineapple","product_id":"5669_0_0_0","product_query":"Pineapple","location_name":"banglore","location_id":"NA","location_query":"nbloc=cty=KRWR48YVgJEmKvZUN3TZeQ==&ctyid=Vthxifmkz8MHpo2bEeFNUQ==&nwidn=Whv+lxHLbLjPs+Q/Tqsi3w==&pin=SA1geloX+CMrJRFXFEIeOQ==&ispn=C2W0fZgPy0KdDuCafMusSg==&isRapid=C2W0fZgPy0KdDuCafMusSg==","category_id":"NA"}
+        ]
+    },
+    {
+        "product_name": "Blue Grapes",
+        "product_type": "Fruits",
+        "sku_g":"250",
+        "sku_u":"NA",
+        "vendor_list": [
+            {"vendor_name":"Big basket","product_name":"Blue Grapes","product_id":"20000707","product_query":"fresho-grapes-bangalore-blue-with-seed-500-g","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"}
+        ]
+    },
+    {
+        "product_name": "Avocado",
+        "product_type": "Fruits",
+        "sku_g":"NA",
+        "sku_u":"1",
+        "vendor_list": [
+            {"vendor_name":"Big basket","product_name":"Avocado","product_id":"40202915","product_query":"fresho-avocado-2-pcs","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
+            {"vendor_name":"Nature's Basket","product_name":"Avocado","product_id":"4721_0_0_0","product_query":"Avocado-Indian","location_name":"banglore","location_id":"NA","location_query":"nbloc=cty=KRWR48YVgJEmKvZUN3TZeQ==&ctyid=Vthxifmkz8MHpo2bEeFNUQ==&nwidn=Whv+lxHLbLjPs+Q/Tqsi3w==&pin=SA1geloX+CMrJRFXFEIeOQ==&ispn=C2W0fZgPy0KdDuCafMusSg==&isRapid=C2W0fZgPy0KdDuCafMusSg==","category_id":"NA"}
+        ]
+    },
+    {
+        "product_name": "Pomegranate",
+        "product_type": "Fruits",
+        "sku_g":"500",
+        "sku_u":"NA",
+        "vendor_list": [
+            {"vendor_name":"Big basket","product_name":"Pomegranate","product_id":"10000269","product_query":"fresho-pomegranate-4-pcs","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
+            {"vendor_name":"Big basket Organic","product_name":"Pomegranate","product_id":"50000536","product_query":"fresho-pomegranate-organically-grown-500-g","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
+            {"vendor_name":"Nature's Basket","product_name":"Pomegranate","product_id":"5685_0_0_0","product_query":"Pomegranate","location_name":"banglore","location_id":"NA","location_query":"nbloc=cty=KRWR48YVgJEmKvZUN3TZeQ==&ctyid=Vthxifmkz8MHpo2bEeFNUQ==&nwidn=Whv+lxHLbLjPs+Q/Tqsi3w==&pin=SA1geloX+CMrJRFXFEIeOQ==&ispn=C2W0fZgPy0KdDuCafMusSg==&isRapid=C2W0fZgPy0KdDuCafMusSg==","category_id":"NA"}
+        ]
+    },
+     {
+        "product_name": "Papaya",
+        "product_type": "Fruits",
+        "sku_g":"NA",
+        "sku_u":"1",
+        "vendor_list": [
+            {"vendor_name":"Big basket","product_name":"Papaya","product_id":"10000152","product_query":"fresho-papaya-medium-1-pc","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
+            {"vendor_name":"Big basket Organic","product_name":"Papaya","product_id":"10000152","product_query":"fresho-papaya-medium-1-pc","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
+            {"vendor_name":"Nature's Basket","product_name":"Papaya","product_id":"5620_0_0_0","product_query":"Papaya","location_name":"banglore","location_id":"NA","location_query":"nbloc=cty=KRWR48YVgJEmKvZUN3TZeQ==&ctyid=Vthxifmkz8MHpo2bEeFNUQ==&nwidn=Whv+lxHLbLjPs+Q/Tqsi3w==&pin=SA1geloX+CMrJRFXFEIeOQ==&ispn=C2W0fZgPy0KdDuCafMusSg==&isRapid=C2W0fZgPy0KdDuCafMusSg==","category_id":"NA"}
+        ]
+    },
+    {
+        "product_name": "Apple - Fuji",
+        "product_type": "Fruits",
+        "sku_g":"500",
+        "sku_u":"NA",
         "vendor_list": [
             {"vendor_name":"Gournet Garden","product_name":"potato","product_id":"potato","product_query":"potato","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"},
             {"vendor_name":"Big basket","product_name":"potato","product_id":"10000159","product_query":"fresho-potato-1-kg","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
