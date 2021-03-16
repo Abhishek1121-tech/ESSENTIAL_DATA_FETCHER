@@ -21,7 +21,6 @@ class Utils:
 		except Exception as e:
 			print(e)
 			raise e
-		return Constants.EXCEPTION_LOAD
 	
 	def makeRequestUrl(url,cookie_header,raw_data,method_type):
 		if url:
