@@ -6,7 +6,8 @@
         "sku_g":"500",
         "sku_u":"NA",
         "vendor_list": [
-            {"vendor_name":"Big basket","product_name":"Apple - Fuji","product_id":"40033815","product_query":"fresho-apple-fuji-regular-4-pcs-approx500g650g","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"}
+            {"vendor_name":"Big basket","product_name":"Apple - Fuji","product_id":"40033815","product_query":"fresho-apple-fuji-regular-4-pcs-approx500g650g","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
+            {"vendor_name":"Namdhari","product_name":"Apple - Fuji","product_id":"pid-15603239","product_query":"apple-fuji","location_name":"banglore","location_id":"1","location_query":"{\"PinCode\":\"560002\",\"LocationId\":\"29955\",\"DeliverySlot\":null,\"DM\":\"H\"};","category_id":"NA"}
         ]
     },
     {

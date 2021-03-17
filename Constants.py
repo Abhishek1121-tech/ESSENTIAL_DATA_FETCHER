@@ -61,6 +61,7 @@ class Constants:
 	Nature_s_Basket="Nature's_Basket"
 	Townness="Townness"
 	Townness_Discounted="Townness_-_Discounted"
+	Namdhari_s="Namdhari"
 
 	EXCEPTION_LOAD='Exception while loading data'
 	EXCEPTION_QUERY='Exception while quering website'

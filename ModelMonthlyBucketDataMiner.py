@@ -9,7 +9,7 @@ from Natures_Defination import Natures_Defination
 from Townness_Defination import Townness_Defination
 from Bigbasket_Organic_Defination import Bigbasket_Organic_Defination
 from ModelMonthlyBucketDataPersister import ModelMonthlyBucketDataPersister
-
+from Simpli_Namdharis_Defination import Simpli_Namdharis_Defination
 
 class ModelMonthlyBucketDataMiner:
 
@@ -85,6 +85,10 @@ class ModelMonthlyBucketDataMiner:
         elif vendor[Constants.STR_V_NAME] == Constants.Townness_Discounted.replace(Constants.UNDERSCORE,Constants.SPACE):
             url,cookie_header,raw_data=Townness_Defination.getUrlWithHeaderRawData(vendor)
             vendor_price_list=Townness_Defination.queryWebsite(url,cookie_header,raw_data,Constants.HTTP_METHOD_TYPE_POST)
+            return vendor_price_list
+        elif vendor[Constants.STR_V_NAME] == Constants.Namdhari_s.replace(Constants.UNDERSCORE,Constants.SPACE):
+            url,cookie_header,raw_data=Simpli_Namdharis_Defination.getUrlWithHeaderRawData(vendor)
+            vendor_price_list=Simpli_Namdharis_Defination.queryWebsite(url,cookie_header,raw_data,Constants.HTTP_METHOD_TYPE_POST)
             return vendor_price_list
 
 
