@@ -25,7 +25,7 @@ class Utils:
 	def makeRequestUrl(url,cookie_header,raw_data,method_type):
 		if url:
 			if cookie_header != Constants.NONE:
-				cookies=Utils.convertTextToJson(cookie_header)
+				cookies=cookie_header
 			else:
 				cookies='';
 			if raw_data != Constants.NONE:

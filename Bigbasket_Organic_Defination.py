@@ -3,6 +3,7 @@ from Constants import Constants
 from Utils import Utils
 from bs4 import BeautifulSoup
 import json
+import requests
 import re
 
 class Bigbasket_Organic_Defination:
@@ -11,7 +12,8 @@ class Bigbasket_Organic_Defination:
         #print(vendor)
         config_dict=ConfigReader.get_confic_dict()
         url=config_dict[Constants.Gournet_Garden]['http_scheme']+Constants.COLON+Constants.DOUBLEFORWARDSLASH+config_dict[Constants.Big_basket_Organic]['base_url']+vendor['product_id']+Constants.FORWARDSLASH+vendor['product_query']+Constants.FORWARDSLASH
-        cookie_header="cookie:  _bb_cid="+vendor['location_query']
+        cookie_header=requests.cookies.RequestsCookieJar()
+        cookie_header.set('_bb_cid',vendor['location_query'])
         raw_data=Constants.NONE
         return url,cookie_header,raw_data
 

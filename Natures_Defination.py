@@ -3,13 +3,15 @@ from Constants import Constants
 from Utils import Utils
 from bs4 import BeautifulSoup
 import json
+import requests
 
 class Natures_Defination:
     def getUrlWithHeaderRawData(vendor):
         #print(vendor)
         config_dict=ConfigReader.get_confic_dict()
         url=config_dict[Constants.Nature_s_Basket]['http_scheme']+Constants.COLON+Constants.DOUBLEFORWARDSLASH+config_dict[Constants.Nature_s_Basket]['base_url']+vendor['product_query']+Constants.FORWARDSLASH+vendor['product_id']
-        cookie_header="cookie: "+vendor['location_query']
+        cookie_header=requests.cookies.RequestsCookieJar()
+        cookie_header.set('nbloc',vendor['location_query'])
         raw_data=Constants.NONE
         return url,cookie_header,raw_data
 
