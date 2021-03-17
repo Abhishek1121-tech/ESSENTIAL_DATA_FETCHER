@@ -62,6 +62,8 @@ class Constants:
 	Townness="Townness"
 	Townness_Discounted="Townness_-_Discounted"
 	Namdhari_s="Namdhari"
+	Organic_World="Organic_World"
+	Healthy_Buddha="Healthy_Buddha"
 
 	EXCEPTION_LOAD='Exception while loading data'
 	EXCEPTION_QUERY='Exception while quering website'

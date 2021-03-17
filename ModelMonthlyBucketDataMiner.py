@@ -10,6 +10,8 @@ from Townness_Defination import Townness_Defination
 from Bigbasket_Organic_Defination import Bigbasket_Organic_Defination
 from ModelMonthlyBucketDataPersister import ModelMonthlyBucketDataPersister
 from Simpli_Namdharis_Defination import Simpli_Namdharis_Defination
+from Organic_World_Defination import Organic_World_Defination
+from Healthy_Buddha_Defination import Healthy_Buddha_Defination
 
 class ModelMonthlyBucketDataMiner:
 
@@ -88,9 +90,16 @@ class ModelMonthlyBucketDataMiner:
             return vendor_price_list
         elif vendor[Constants.STR_V_NAME] == Constants.Namdhari_s.replace(Constants.UNDERSCORE,Constants.SPACE):
             url,cookie_header,raw_data=Simpli_Namdharis_Defination.getUrlWithHeaderRawData(vendor)
-            vendor_price_list=Simpli_Namdharis_Defination.queryWebsite(url,cookie_header,raw_data,Constants.HTTP_METHOD_TYPE_POST)
+            vendor_price_list=Simpli_Namdharis_Defination.queryWebsite(url,cookie_header,raw_data,Constants.HTTP_METHOD_TYPE_GET)
             return vendor_price_list
-
+        elif vendor[Constants.STR_V_NAME] == Constants.Organic_World.replace(Constants.UNDERSCORE,Constants.SPACE):
+            url,cookie_header,raw_data=Organic_World_Defination.getUrlWithHeaderRawData(vendor)
+            vendor_price_list=Organic_World_Defination.queryWebsite(url,cookie_header,raw_data,Constants.HTTP_METHOD_TYPE_GET)
+            return vendor_price_list
+        elif vendor[Constants.STR_V_NAME] == Constants.Healthy_Buddha.replace(Constants.UNDERSCORE,Constants.SPACE):
+            url,cookie_header,raw_data=Healthy_Buddha_Defination.getUrlWithHeaderRawData(vendor)
+            vendor_price_list=Healthy_Buddha_Defination.queryWebsite(url,cookie_header,raw_data,Constants.HTTP_METHOD_TYPE_GET)
+            return vendor_price_list
 
         
 

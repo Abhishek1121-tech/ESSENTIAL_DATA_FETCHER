@@ -8,7 +8,7 @@ from openpyxl.styles import PatternFill
 
 class ModelMonthlyBucketDataPersister:
 
-    vendor_name_list=['','SKU(g)','#SKUs','Gournet Garden','Big basket','Big basket discounted','Big basket Organic','Big basket - organic Discounted','Nature\'s Basket','Townness','Townness - Discounted','Namdhari']
+    vendor_name_list=['','SKU(g)','#SKUs','Big basket','Big basket discounted','Big basket Organic','Big basket - organic Discounted','Nature\'s Basket','Namdhari','Organic World','Healthy Buddha']
     items_persist_in_excel=[Constants.STR_VEG_ORG,Constants.STR_VEG_NATURO,Constants.STR_FRUITS]
 
     def recDataPersist(data_dict):

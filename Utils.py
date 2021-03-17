@@ -23,6 +23,8 @@ class Utils:
 			raise e
 	
 	def makeRequestUrl(url,cookie_header,raw_data,method_type):
+		#print(url)
+		#print(cookie_header)
 		if url:
 			if cookie_header != Constants.NONE:
 				cookies=cookie_header

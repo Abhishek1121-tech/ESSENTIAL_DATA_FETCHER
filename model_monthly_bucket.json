@@ -24,7 +24,8 @@
         "sku_g":"500",
         "sku_u":"NA",
         "vendor_list": [
-            {"vendor_name":"Big basket","product_name":"Guava","product_id":"10000370","product_query":"fresho-guava-500-g","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"}
+            {"vendor_name":"Big basket","product_name":"Guava","product_id":"10000370","product_query":"fresho-guava-500-g","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
+            {"vendor_name":"Organic World","product_name":"Guava","product_id":"Guava","product_query":"guava","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"}
         ]
     },
     {
@@ -46,7 +47,8 @@
         "vendor_list": [
             {"vendor_name":"Big basket","product_name":"Pineapple","product_id":"10000156","product_query":"fresho-pineapple-1-pc","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
             {"vendor_name":"Big basket Organic","product_name":"Pineapple","product_id":"40023483","product_query":"fresho-pineapple-organically-grown-1-pc","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
-            {"vendor_name":"Nature's Basket","product_name":"Pineapple","product_id":"5669_0_0_0","product_query":"Pineapple","location_name":"banglore","location_id":"NA","location_query":"cty=KRWR48YVgJEmKvZUN3TZeQ==&ctyid=Vthxifmkz8MHpo2bEeFNUQ==&nwidn=Whv+lxHLbLjPs+Q/Tqsi3w==&pin=SA1geloX+CMrJRFXFEIeOQ==&ispn=C2W0fZgPy0KdDuCafMusSg==&isRapid=C2W0fZgPy0KdDuCafMusSg==","category_id":"NA"}
+            {"vendor_name":"Nature's Basket","product_name":"Pineapple","product_id":"5669_0_0_0","product_query":"Pineapple","location_name":"banglore","location_id":"NA","location_query":"cty=KRWR48YVgJEmKvZUN3TZeQ==&ctyid=Vthxifmkz8MHpo2bEeFNUQ==&nwidn=Whv+lxHLbLjPs+Q/Tqsi3w==&pin=SA1geloX+CMrJRFXFEIeOQ==&ispn=C2W0fZgPy0KdDuCafMusSg==&isRapid=C2W0fZgPy0KdDuCafMusSg==","category_id":"NA"},
+            {"vendor_name":"Healthy Buddha","product_name":"Pineapple","product_id":"Pineapple","product_query":"pineapple","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"}
         ]
     },
     {
