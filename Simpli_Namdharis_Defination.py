@@ -18,6 +18,7 @@ class Simpli_Namdharis_Defination:
         return url,cookie_header,raw_data
 
     def queryWebsite(url,cookie_header,raw_data,method_type):
+        #print(url)
         #print(raw_data)
         config_dict=ConfigReader.get_confic_dict()
         return_list=[]
@@ -37,14 +38,20 @@ class Simpli_Namdharis_Defination:
                     data_txt_list.append(data_txt_split)
                     #print(extracted_data)
             #print(data_txt_list[Constants.NUM_0][Constants.NUM_1])
+            #print(data_txt_list)
             extracted_data=data_txt_list[Constants.NUM_0][Constants.NUM_1]
-            data = json.loads(extracted_data)
-            data_variant=json.loads(data[config_dict[Constants.Namdhari_s]['json_product_index_name']][config_dict[Constants.Namdhari_s]['json_variants_index_name']])
-            #print(data_variant)
-            price_vendor_list.append(Constants.Namdhari_s.replace(Constants.UNDERSCORE,Constants.SPACE))
-            price_vendor_list.append(data_variant[Constants.NUM_0][config_dict[Constants.Namdhari_s]['mrpprice_syntax_in_json']])
-            #print(price_vendor_list)
-            return_list.append(price_vendor_list)
+            #print(extracted_data)
+            data = json.loads(str(extracted_data))
+            variant_data=data[config_dict[Constants.Namdhari_s]['json_product_index_name']][config_dict[Constants.Namdhari_s]['json_variants_index_name']]
+            if variant_data is not None:
+                data_variant=json.loads(variant_data)
+                #print(data_variant)
+                append_price_data=data_variant[Constants.NUM_0][config_dict[Constants.Namdhari_s]['mrpprice_syntax_in_json']]
+                if append_price_data is not None:
+                    price_vendor_list.append(Constants.Namdhari_s.replace(Constants.UNDERSCORE,Constants.SPACE))
+                    price_vendor_list.append(data_variant[Constants.NUM_0][config_dict[Constants.Namdhari_s]['mrpprice_syntax_in_json']])
+                    #print(price_vendor_list)
+                    return_list.append(price_vendor_list)
             if config_dict[Constants.Namdhari_s]['discounted_is_required'] == str(True):
                 print("if True then will add the discounted price also not required in this case, you can add later")
         return return_list
