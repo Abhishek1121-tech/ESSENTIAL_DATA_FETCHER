@@ -26,7 +26,7 @@ class Organic_World_Defination:
         #print(r.text)
         if read_response:
             #print(read_response)
-            soup = BeautifulSoup(read_response,features="lxml")
+            soup = BeautifulSoup(read_response,features="html.parser")
             parsed_txt=soup.find(config_dict[Constants.Organic_World]['meta_tag_value'],property=config_dict[Constants.Organic_World]['match_price_content'])
             #print(parsed_txt["content"])
             price_vendor_list.append(Constants.Organic_World.replace(Constants.UNDERSCORE,Constants.SPACE))
