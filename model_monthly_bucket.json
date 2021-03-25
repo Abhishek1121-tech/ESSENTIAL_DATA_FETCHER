@@ -565,7 +565,7 @@
         "vendor_list": [
             {"vendor_name":"Big basket","product_name":"Broccoli","product_id":"10000063","product_query":"fresho-broccoli-1-pc","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
             {"vendor_name":"Nature's Basket","product_name":"Broccoli","product_id":"4859_0_0_0","product_query":"Broccoli-Exotic","location_name":"banglore","location_id":"NA","location_query":"cty=KRWR48YVgJEmKvZUN3TZeQ==&ctyid=Vthxifmkz8MHpo2bEeFNUQ==&nwidn=Whv+lxHLbLjPs+Q/Tqsi3w==&pin=SA1geloX+CMrJRFXFEIeOQ==&ispn=C2W0fZgPy0KdDuCafMusSg==&isRapid=C2W0fZgPy0KdDuCafMusSg==","category_id":"NA"},
-            {"vendor_name":"Namdhari","product_name":"Broccoli","product_id":"pid-15603271","product_query":"broccoli","product_vpid":"12040095","location_name":"banglore","location_id":"1","location_query":"{\"PinCode\":\"560002\",\"LocationId\":\"29955\",\"DeliverySlot\":null,\"DM\":\"H\"};","category_id":"NA"},
+            {"vendor_name":"Namdhari","product_name":"Broccoli","product_id":"pid-16932665","product_query":"broccoli","product_vpid":"13650361","location_name":"banglore","location_id":"1","location_query":"{\"PinCode\":\"560002\",\"LocationId\":\"29955\",\"DeliverySlot\":null,\"DM\":\"H\"};","category_id":"NA"},
 			{"vendor_name":"Healthy Buddha","product_name":"Broccoli","product_id":"Broccoli","product_query":"broccoli","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"},
 			{"vendor_name":"Organic World","product_name":"Broccoli","product_id":"Broccoli","product_query":"broccoli","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"}
         ]

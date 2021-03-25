@@ -81,6 +81,7 @@ class Constants:
 	STR_VENDOR_LIST="vendor_list"
 	STR_V_NAME="vendor_name"
 	STR_ID="id"
+	STR_CLASS='class'
 	STR_VALUE="value"
 	STRING_DATE="Date"
 	STR_SUCCESS="SUCCESS"
