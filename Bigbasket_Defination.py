@@ -30,13 +30,17 @@ class Bigbasket_Defination:
             #print(parsed_txt)
             for txt in parsed_txt:
                 if re.search(config_dict[Constants.Big_basket]['match_price_content'],txt.text):
-                    #print(txt)
+                    #print(txt.text)
                     data_txt_split=txt.text.split(config_dict[Constants.Big_basket]['split_matched_content'].replace(Constants.DOLLAR,Constants.SPACE))
                     extracted_data=data_txt_split[Constants.NUM_1].strip()
                     #print(extracted_data)
                     data = json.loads(extracted_data)
                     price_vendor_list.append(Constants.Big_basket.replace(Constants.UNDERSCORE,Constants.SPACE))
                     price_vendor_list.append(data[config_dict[Constants.Big_basket]['json_product_index_name']][config_dict[Constants.Big_basket]['json_variants_index_name']][Constants.NUM_0][config_dict[Constants.Big_basket]['mrpprice_syntax_in_json']])
+                    return_list.append(price_vendor_list)
+                    price_vendor_list=[]
+                    price_vendor_list.append(Constants.Big_basket.replace(Constants.UNDERSCORE,Constants.SPACE)+Constants.SPACE+Constants.STR_SKU)
+                    price_vendor_list.append(data[config_dict[Constants.Big_basket]['json_product_index_name']][config_dict[Constants.Big_basket]['json_variants_index_name']][Constants.NUM_0][config_dict[Constants.Big_basket]['json_sku_name']])
                     return_list.append(price_vendor_list)
                     if config_dict[Constants.Big_basket]['discounted_is_required'] == str(True):
                         #print("if True then will add the discounted price also not required in this case, you can add later")

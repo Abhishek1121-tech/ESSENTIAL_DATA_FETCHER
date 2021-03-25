@@ -3,7 +3,10 @@ class Constants:
 	UNDERSCORE="_"
 	DOUBLEFORWARDSLASH="//"
 	QUESTION_MARK="?"
+	DASH="-"
 	COLON=":"
+	GREATER_OP=">"
+	OPEN_BRC="("
 	DOLLAR="$"
 	DOT="."
 	AMPERCENT="&"
@@ -87,6 +90,7 @@ class Constants:
 	STR_FRUITS="Fruits"
 	STR_VEG_NATURO="Veggies-Naturoponic"
 	STR_NOT_AVAILABLE="NA"
+	STR_SKU="SKU"
 
 	WRD_CITY="city"
 

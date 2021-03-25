@@ -27,6 +27,8 @@ class Healthy_Buddha_Defination:
         if read_response:
             #print(read_response)
             soup = BeautifulSoup(read_response,'html.parser')
+            sku_value_selected=(str(soup.option).split(Constants.DASH)[Constants.NUM_0].split(Constants.GREATER_OP)[Constants.NUM_1])
+            #print(sku_value_selected)
             parsed_txt=soup.findAll(config_dict[Constants.Healthy_Buddha]['script_tag_value'])
             #print(parsed_txt)
             extracted_data=Constants.NONE
@@ -42,9 +44,12 @@ class Healthy_Buddha_Defination:
                 price_vendor_list.append(data[config_dict[Constants.Healthy_Buddha]['json_product_index_name']][config_dict[Constants.Healthy_Buddha]['mrpprice_syntax_in_json']])
                 #print(price_vendor_list)
                 return_list.append(price_vendor_list) 
+                price_vendor_list=[]
+                price_vendor_list.append(Constants.Healthy_Buddha.replace(Constants.UNDERSCORE,Constants.SPACE)+Constants.SPACE+Constants.STR_SKU)
+                price_vendor_list.append(sku_value_selected)
+                #print(price_vendor_list)
+                return_list.append(price_vendor_list)
             if config_dict[Constants.Healthy_Buddha]['discounted_is_required'] == str(True):
                 print("if True then will add the discounted price also not required in this case, you can add later")
-        return return_list
-                   
-            
+        return return_list     
            

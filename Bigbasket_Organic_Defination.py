@@ -38,6 +38,10 @@ class Bigbasket_Organic_Defination:
                     price_vendor_list.append(Constants.Big_basket_Organic.replace(Constants.UNDERSCORE,Constants.SPACE))
                     price_vendor_list.append(data[config_dict[Constants.Big_basket_Organic]['json_product_index_name']][config_dict[Constants.Big_basket_Organic]['json_variants_index_name']][Constants.NUM_0][config_dict[Constants.Big_basket_Organic]['mrpprice_syntax_in_json']])
                     return_list.append(price_vendor_list)
+                    price_vendor_list=[]
+                    price_vendor_list.append(Constants.Big_basket_Organic.replace(Constants.UNDERSCORE,Constants.SPACE)+Constants.SPACE+Constants.STR_SKU)
+                    price_vendor_list.append(data[config_dict[Constants.Big_basket_Organic]['json_product_index_name']][config_dict[Constants.Big_basket_Organic]['json_variants_index_name']][Constants.NUM_0][config_dict[Constants.Big_basket_Organic]['json_sku_name']])
+                    return_list.append(price_vendor_list)
                     if config_dict[Constants.Big_basket_Organic]['discounted_is_required'] == str(True):
                         #print("if True then will add the discounted price also not required in this case, you can add later")
                         price_vendor_list=[]
