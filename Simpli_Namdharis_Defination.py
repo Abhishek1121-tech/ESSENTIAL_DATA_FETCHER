@@ -55,22 +55,34 @@ class Simpli_Namdharis_Defination:
             data = json.loads(str(extracted_data))
             variant_data=data[config_dict[Constants.Namdhari_s]['json_product_index_name']][config_dict[Constants.Namdhari_s]['json_variants_index_name']]
             if variant_data is not None:
+                #print(variant_data)
                 data_variants=json.loads(variant_data)
                 #print(data_variants)
                 append_price_data=None
+                sku_value=None
                 if v_product_id == Constants.NONE:
                     append_price_data=data_variants[Constants.NUM_0][config_dict[Constants.Namdhari_s]['mrpprice_syntax_in_json']]
+                    sku_value=data_variants[Constants.NUM_0][config_dict[Constants.Namdhari_s]['sku_variant_index_name']][config_dict[Constants.Namdhari_s]['sku_variant_weight_name']]
+                    print(sku_value)
                 else:
                     for data_v in data_variants:
                         #print("variants"+str(data_v[config_dict[Constants.Namdhari_s]['variants_match_content']]))
                         if str(data_v[config_dict[Constants.Namdhari_s]['variants_match_content']]) == str(v_product_id):
                             #print("matched variant_product_id")
                             append_price_data=data_v[config_dict[Constants.Namdhari_s]['mrpprice_syntax_in_json']]
+                            sku_value=data_v[config_dict[Constants.Namdhari_s]['sku_variant_index_name']][config_dict[Constants.Namdhari_s]['sku_variant_weight_name']]
+                            print(sku_value)
                             break
                 #print("append data"+str(append_price_data))
                 if append_price_data is not None:
                     price_vendor_list.append(Constants.Namdhari_s.replace(Constants.UNDERSCORE,Constants.SPACE))
                     price_vendor_list.append(append_price_data)
+                    #print(price_vendor_list)
+                    return_list.append(price_vendor_list)
+                if sku_value is not None:
+                    price_vendor_list=[]
+                    price_vendor_list.append(Constants.Namdhari_s.replace(Constants.UNDERSCORE,Constants.SPACE)+Constants.SPACE+Constants.STR_SKU)
+                    price_vendor_list.append(sku_value)
                     #print(price_vendor_list)
                     return_list.append(price_vendor_list)
             if config_dict[Constants.Namdhari_s]['discounted_is_required'] == str(True):
