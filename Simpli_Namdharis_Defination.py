@@ -63,7 +63,7 @@ class Simpli_Namdharis_Defination:
                 if v_product_id == Constants.NONE:
                     append_price_data=data_variants[Constants.NUM_0][config_dict[Constants.Namdhari_s]['mrpprice_syntax_in_json']]
                     sku_value=data_variants[Constants.NUM_0][config_dict[Constants.Namdhari_s]['sku_variant_index_name']][config_dict[Constants.Namdhari_s]['sku_variant_weight_name']]
-                    print(sku_value)
+                    #print(sku_value)
                 else:
                     for data_v in data_variants:
                         #print("variants"+str(data_v[config_dict[Constants.Namdhari_s]['variants_match_content']]))
@@ -71,7 +71,7 @@ class Simpli_Namdharis_Defination:
                             #print("matched variant_product_id")
                             append_price_data=data_v[config_dict[Constants.Namdhari_s]['mrpprice_syntax_in_json']]
                             sku_value=data_v[config_dict[Constants.Namdhari_s]['sku_variant_index_name']][config_dict[Constants.Namdhari_s]['sku_variant_weight_name']]
-                            print(sku_value)
+                            #print(sku_value)
                             break
                 #print("append data"+str(append_price_data))
                 if append_price_data is not None:
