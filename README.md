@@ -5,7 +5,8 @@
 	- [3] BeautifulSoup module (pip3 install beautifulsoup4==4.8.1)
 	- [4] openpyxl module (pip3 install xlsxwriter)
 	- [5] xlsxwriter module (pip3 install openpyxl)
-	- [6] Internet Connectivity 
+	- [6] request module (pip3 install request)
+	- [7] Internet Connectivity 
 	
 ## On Linux 
 	- Done with Prerequisite
