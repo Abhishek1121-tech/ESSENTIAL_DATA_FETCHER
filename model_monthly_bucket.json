@@ -7,7 +7,8 @@
         "sku_u":"NA",
         "vendor_list": [
             {"vendor_name":"Big basket","product_name":"Apple - Fuji","product_id":"40033815","product_query":"fresho-apple-fuji-regular-4-pcs-approx500g650g","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
-            {"vendor_name":"Namdhari","product_name":"Apple - Fuji","product_id":"pid-15603239","product_query":"apple-fuji","product_vpid":"12040015","location_name":"banglore","location_id":"1","location_query":"{\"PinCode\":\"560002\",\"LocationId\":\"29955\",\"DeliverySlot\":null,\"DM\":\"H\"};","category_id":"NA"}
+            {"vendor_name":"Namdhari","product_name":"Apple - Fuji","product_id":"pid-16931565","product_query":"apple-fuji","product_vpid":"13649981","location_name":"banglore","location_id":"1","location_query":"{\"PinCode\":\"560002\",\"LocationId\":\"29955\",\"DeliverySlot\":null,\"DM\":\"H\"};","category_id":"NA"},
+            {"vendor_name":"Gournet Garden","product_name":"Apple - Fuji","product_id":"apple-fuji-3-pcs","product_query":"apple-fuji-3-pcs","v_id":"NA","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"}
         ]
     },
     {
@@ -18,7 +19,8 @@
         "vendor_list": [
             {"vendor_name":"Big basket","product_name":"Apple - Royal Gala","product_id":"40033823","product_query":"fresho-apple-royal-gala-regular-4-pcs","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
             {"vendor_name":"Namdhari","product_name":"Apple - Royal Gala","product_id":"pid-15603443","product_query":"apple-royal-gala","product_vpid":"12040415","location_name":"banglore","location_id":"1","location_query":"{\"PinCode\":\"560002\",\"LocationId\":\"29955\",\"DeliverySlot\":null,\"DM\":\"H\"};","category_id":"NA"},
-            {"vendor_name":"Nature's Basket","product_name":"Apple - Royal Gala","product_id":"4693_0_0_0","product_query":"Apple-Royal-Gala-New-Zealand","location_name":"banglore","location_id":"NA","location_query":"cty=KRWR48YVgJEmKvZUN3TZeQ==&ctyid=Vthxifmkz8MHpo2bEeFNUQ==&nwidn=Whv+lxHLbLjPs+Q/Tqsi3w==&pin=SA1geloX+CMrJRFXFEIeOQ==&ispn=C2W0fZgPy0KdDuCafMusSg==&isRapid=C2W0fZgPy0KdDuCafMusSg==","category_id":"NA"}
+            {"vendor_name":"Nature's Basket","product_name":"Apple - Royal Gala","product_id":"4693_0_0_0","product_query":"Apple-Royal-Gala-New-Zealand","location_name":"banglore","location_id":"NA","location_query":"cty=KRWR48YVgJEmKvZUN3TZeQ==&ctyid=Vthxifmkz8MHpo2bEeFNUQ==&nwidn=Whv+lxHLbLjPs+Q/Tqsi3w==&pin=SA1geloX+CMrJRFXFEIeOQ==&ispn=C2W0fZgPy0KdDuCafMusSg==&isRapid=C2W0fZgPy0KdDuCafMusSg==","category_id":"NA"},
+            {"vendor_name":"Gournet Garden","product_name":"Apple - Royal Gala","product_id":"apple-royal-gala-3-pcs","product_query":"apple-royal-gala-3-pcs","v_id":"NA","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"}
             
         ]
     },{
@@ -28,7 +30,8 @@
         "sku_u":"NA",
         "vendor_list": [
             {"vendor_name":"Big basket","product_name":"Guava","product_id":"10000370","product_query":"fresho-guava-500-g","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
-            {"vendor_name":"Organic World","product_name":"Guava","product_id":"Guava","product_query":"guava","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"}
+            {"vendor_name":"Organic World","product_name":"Guava","product_id":"Guava","product_query":"guava","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"},
+            {"vendor_name":"Gournet Garden","product_name":"Guava","product_id":"guava-organic-2-pc","product_query":"guava-organic-2-pc","v_id":"32992500711510","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"}
         ]
     },
     {
@@ -40,7 +43,8 @@
             {"vendor_name":"Big basket","product_name":"Chiku","product_id":"10000181","product_query":"fresho-sapota-500-g","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
             {"vendor_name":"Big basket Organic","product_name":"Chiku","product_id":"40022646","product_query":"fresho-sapota-organically-grown-500-g","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
             {"vendor_name":"Nature's Basket","product_name":"Chiku","product_id":"4997_0_0_0","product_query":"Chikoo","location_name":"banglore","location_id":"NA","location_query":"cty=KRWR48YVgJEmKvZUN3TZeQ==&ctyid=Vthxifmkz8MHpo2bEeFNUQ==&nwidn=Whv+lxHLbLjPs+Q/Tqsi3w==&pin=SA1geloX+CMrJRFXFEIeOQ==&ispn=C2W0fZgPy0KdDuCafMusSg==&isRapid=C2W0fZgPy0KdDuCafMusSg==","category_id":"NA"},
-            {"vendor_name":"Namdhari","product_name":"Chiku","product_id":"pid-15603393","product_query":"sapota","product_vpid":"12040329","location_name":"banglore","location_id":"1","location_query":"{\"PinCode\":\"560002\",\"LocationId\":\"29955\",\"DeliverySlot\":null,\"DM\":\"H\"};","category_id":"NA"}
+            {"vendor_name":"Namdhari","product_name":"Chiku","product_id":"pid-16934057","product_query":"sapota","product_vpid":"13650875","location_name":"banglore","location_id":"1","location_query":"{\"PinCode\":\"560002\",\"LocationId\":\"29955\",\"DeliverySlot\":null,\"DM\":\"H\"};","category_id":"NA"},
+            {"vendor_name":"Gournet Garden","product_name":"Chiku","product_id":"organic-chiku-sapota-3-pcs","product_query":"organic-chiku-sapota-3-pcs","v_id":"33226245210198","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"}
         ]
     },
     {
@@ -53,7 +57,9 @@
             {"vendor_name":"Big basket Organic","product_name":"Pineapple","product_id":"40023483","product_query":"fresho-pineapple-organically-grown-1-pc","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
             {"vendor_name":"Nature's Basket","product_name":"Pineapple","product_id":"5669_0_0_0","product_query":"Pineapple","location_name":"banglore","location_id":"NA","location_query":"cty=KRWR48YVgJEmKvZUN3TZeQ==&ctyid=Vthxifmkz8MHpo2bEeFNUQ==&nwidn=Whv+lxHLbLjPs+Q/Tqsi3w==&pin=SA1geloX+CMrJRFXFEIeOQ==&ispn=C2W0fZgPy0KdDuCafMusSg==&isRapid=C2W0fZgPy0KdDuCafMusSg==","category_id":"NA"},
             {"vendor_name":"Healthy Buddha","product_name":"Pineapple","product_id":"Pineapple","product_query":"pineapple","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"},
-            {"vendor_name":"Organic World","product_name":"Pineapple","product_id":"Pineapple","product_query":"pineapple","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"}
+            {"vendor_name":"Organic World","product_name":"Pineapple","product_id":"Pineapple","product_query":"pineapple","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"},
+            {"vendor_name":"Gournet Garden","product_name":"Pineapple","product_id":"organic-pineapple-1-pc","product_query":"organic-pineapple-1-pc","v_id":"NA","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"},
+            {"vendor_name":"Namdhari","product_name":"Pineapple","product_id":"pid-16934053","product_query":"pine-apple-(appx-1kg-to-14kg)","product_vpid":"NA","location_name":"banglore","location_id":"1","location_query":"{\"PinCode\":\"560002\",\"LocationId\":\"29955\",\"DeliverySlot\":null,\"DM\":\"H\"};","category_id":"NA"}
         ]
     },
     {
@@ -62,7 +68,9 @@
         "sku_g":"250",
         "sku_u":"NA",
         "vendor_list": [
-            {"vendor_name":"Big basket","product_name":"Blue Grapes","product_id":"20000707","product_query":"fresho-grapes-bangalore-blue-with-seed-500-g","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"}
+            {"vendor_name":"Big basket","product_name":"Blue Grapes","product_id":"20000707","product_query":"fresho-grapes-bangalore-blue-with-seed-500-g","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
+            {"vendor_name":"Gournet Garden","product_name":"Blue Grapes","product_id":"blue-grapes-500-g","product_query":"blue-grapes-500-g","v_id":"33226243309654","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"},
+            {"vendor_name":"Namdhari","product_name":"Blue Grapes","product_id":"pid-16931679","product_query":"namdhari-sharad-grapes","product_vpid":"13650099","location_name":"banglore","location_id":"1","location_query":"{\"PinCode\":\"560002\",\"LocationId\":\"29955\",\"DeliverySlot\":null,\"DM\":\"H\"};","category_id":"NA"}
         ]
     },
     {
@@ -73,8 +81,9 @@
         "vendor_list": [
             {"vendor_name":"Big basket","product_name":"Avocado","product_id":"40202915","product_query":"fresho-avocado-2-pcs","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
             {"vendor_name":"Nature's Basket","product_name":"Avocado","product_id":"4721_0_0_0","product_query":"Avocado-Indian","location_name":"banglore","location_id":"NA","location_query":"cty=KRWR48YVgJEmKvZUN3TZeQ==&ctyid=Vthxifmkz8MHpo2bEeFNUQ==&nwidn=Whv+lxHLbLjPs+Q/Tqsi3w==&pin=SA1geloX+CMrJRFXFEIeOQ==&ispn=C2W0fZgPy0KdDuCafMusSg==&isRapid=C2W0fZgPy0KdDuCafMusSg==","category_id":"NA"},
-            {"vendor_name":"Namdhari","product_name":"Avocado","product_id":"pid-15603263","product_query":"avocado","product_vpid":"12040065","location_name":"banglore","location_id":"1","location_query":"{\"PinCode\":\"560002\",\"LocationId\":\"29955\",\"DeliverySlot\":null,\"DM\":\"H\"};","category_id":"NA"},
-            {"vendor_name":"Healthy Buddha","product_name":"Avocado","product_id":"Avocado","product_query":"avocado","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"}
+            {"vendor_name":"Namdhari","product_name":"Avocado","product_id":"pid-16932661","product_query":"avocado","product_vpid":"13650353","location_name":"banglore","location_id":"1","location_query":"{\"PinCode\":\"560002\",\"LocationId\":\"29955\",\"DeliverySlot\":null,\"DM\":\"H\"};","category_id":"NA"},
+            {"vendor_name":"Healthy Buddha","product_name":"Avocado","product_id":"Avocado","product_query":"avocado","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"},
+            {"vendor_name":"Gournet Garden","product_name":"Avocado","product_id":"avocado-1-pcs","product_query":"avocado-1-pcs","v_id":"NA","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"}
         ]
     },
     {
@@ -86,9 +95,10 @@
             {"vendor_name":"Big basket","product_name":"Pomegranate","product_id":"10000269","product_query":"fresho-pomegranate-4-pcs","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
             {"vendor_name":"Big basket Organic","product_name":"Pomegranate","product_id":"50000536","product_query":"fresho-pomegranate-organically-grown-500-g","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
             {"vendor_name":"Nature's Basket","product_name":"Pomegranate","product_id":"5685_0_0_0","product_query":"Pomegranate","location_name":"banglore","location_id":"NA","location_query":"cty=KRWR48YVgJEmKvZUN3TZeQ==&ctyid=Vthxifmkz8MHpo2bEeFNUQ==&nwidn=Whv+lxHLbLjPs+Q/Tqsi3w==&pin=SA1geloX+CMrJRFXFEIeOQ==&ispn=C2W0fZgPy0KdDuCafMusSg==&isRapid=C2W0fZgPy0KdDuCafMusSg==","category_id":"NA"},
-            {"vendor_name":"Namdhari","product_name":"Pomegranate","product_id":"pid-15603461","product_query":"pomegranate-premium","product_vpid":"12040455","location_name":"banglore","location_id":"1","location_query":"{\"PinCode\":\"560002\",\"LocationId\":\"29955\",\"DeliverySlot\":null,\"DM\":\"H\"};","category_id":"NA"},
+            {"vendor_name":"Namdhari","product_name":"Pomegranate","product_id":"pid-16934065","product_query":"pomegranate-premium","product_vpid":"13650881","location_name":"banglore","location_id":"1","location_query":"{\"PinCode\":\"560002\",\"LocationId\":\"29955\",\"DeliverySlot\":null,\"DM\":\"H\"};","category_id":"NA"},
             {"vendor_name":"Healthy Buddha","product_name":"Pomegranate","product_id":"Pomegranate","product_query":"pomegranate","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"},
-            {"vendor_name":"Organic World","product_name":"Pomegranate","product_id":"Pomegranate","product_query":"pomegranate","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"}
+            {"vendor_name":"Organic World","product_name":"Pomegranate","product_id":"Pomegranate","product_query":"pomegranate","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"},
+            {"vendor_name":"Gournet Garden","product_name":"Pomegranate","product_id":"pomegranate-organic-2-pc","product_query":"pomegranate-organic-2-pc","v_id":"NA","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"}
         ]
     },
      {
@@ -100,9 +110,10 @@
             {"vendor_name":"Big basket","product_name":"Papaya","product_id":"10000152","product_query":"fresho-papaya-medium-1-pc","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
             {"vendor_name":"Big basket Organic","product_name":"Papaya","product_id":"10000152","product_query":"fresho-papaya-medium-1-pc","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
             {"vendor_name":"Nature's Basket","product_name":"Papaya","product_id":"5620_0_0_0","product_query":"Papaya","location_name":"banglore","location_id":"NA","location_query":"cty=KRWR48YVgJEmKvZUN3TZeQ==&ctyid=Vthxifmkz8MHpo2bEeFNUQ==&nwidn=Whv+lxHLbLjPs+Q/Tqsi3w==&pin=SA1geloX+CMrJRFXFEIeOQ==&ispn=C2W0fZgPy0KdDuCafMusSg==&isRapid=C2W0fZgPy0KdDuCafMusSg==","category_id":"NA"},
-            {"vendor_name":"Namdhari","product_name":"Papaya","product_id":"pid-15599907","product_query":"papaya-%28appx-12kg-to-17kg%29","product_vpid":"NA","location_name":"banglore","location_id":"1","location_query":"{\"PinCode\":\"560002\",\"LocationId\":\"29955\",\"DeliverySlot\":null,\"DM\":\"H\"};","category_id":"NA"},
+            {"vendor_name":"Namdhari","product_name":"Papaya","product_id":"pid-16934059","product_query":"papaya-%28appx-12kg-to-17kg%29","product_vpid":"NA","location_name":"banglore","location_id":"1","location_query":"{\"PinCode\":\"560002\",\"LocationId\":\"29955\",\"DeliverySlot\":null,\"DM\":\"H\"};","category_id":"NA"},
             {"vendor_name":"Healthy Buddha","product_name":"Papaya","product_id":"Papaya","product_query":"papaya-semi-ripe","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"},
-            {"vendor_name":"Organic World","product_name":"Papaya","product_id":"Papaya","product_query":"papaya","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"}
+            {"vendor_name":"Organic World","product_name":"Papaya","product_id":"Papaya","product_query":"papaya","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"},
+            {"vendor_name":"Gournet Garden","product_name":"Papaya","product_id":"papaya-organic","product_query":"papaya-organic","v_id":"32992472694870","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"}
         ]
     },{
         "product_name": "Peru Avocado",
@@ -110,6 +121,7 @@
         "sku_g":"NA",
         "sku_u":"1",
         "vendor_list": [
+			{"vendor_name":"Gournet Garden","product_name":"Peru Avocado","product_id":"peruvian-hass-avocados-1-pc","product_query":"peruvian-hass-avocados-1-pc","v_id":"NA","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"}
             
         ]
     },
@@ -119,7 +131,8 @@
         "sku_g":"NA",
         "sku_u":"3",
         "vendor_list": [
-			{"vendor_name":"Namdhari","product_name":"Orange Valencia","product_id":"pid-15603379","product_query":"orange-valencia","product_vpid":"12040297","location_name":"banglore","location_id":"1","location_query":"{\"PinCode\":\"560002\",\"LocationId\":\"29955\",\"DeliverySlot\":null,\"DM\":\"H\"};","category_id":"NA"}
+			{"vendor_name":"Namdhari","product_name":"Orange Valencia","product_id":"pid-16931585","product_query":"orange-valencia","product_vpid":"13649993","location_name":"banglore","location_id":"1","location_query":"{\"PinCode\":\"560002\",\"LocationId\":\"29955\",\"DeliverySlot\":null,\"DM\":\"H\"};","category_id":"NA"},
+			{"vendor_name":"Gournet Garden","product_name":"Orange Valencia","product_id":"orange-valencia-3-pcs","product_query":"orange-valencia-3-pcs","v_id":"NA","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"}
         ]
     },
     {
@@ -131,9 +144,10 @@
             {"vendor_name":"Big basket","product_name":"Sweet Lime","product_id":"40083737","product_query":"fresho-mosambi-premium-4-pcs","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
             {"vendor_name":"Big basket Organic","product_name":"Sweet Lime","product_id":"40033917","product_query":"fresho-sweet-lime-organically-grown-500-g","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
             {"vendor_name":"Nature's Basket","product_name":"Sweet Lime","product_id":"5893_0_0_0","product_query":"Sweet-Lime","location_name":"banglore","location_id":"NA","location_query":"cty=KRWR48YVgJEmKvZUN3TZeQ==&ctyid=Vthxifmkz8MHpo2bEeFNUQ==&nwidn=Whv+lxHLbLjPs+Q/Tqsi3w==&pin=SA1geloX+CMrJRFXFEIeOQ==&ispn=C2W0fZgPy0KdDuCafMusSg==&isRapid=C2W0fZgPy0KdDuCafMusSg==","category_id":"NA"},
-            {"vendor_name":"Namdhari","product_name":"Sweet Lime","product_id":"pid-15603475","product_query":"mosambi","product_vpid":"12040467","location_name":"banglore","location_id":"1","location_query":"{\"PinCode\":\"560002\",\"LocationId\":\"29955\",\"DeliverySlot\":null,\"DM\":\"H\"};","category_id":"NA"},
+            {"vendor_name":"Namdhari","product_name":"Sweet Lime","product_id":"pid-16934077","product_query":"mosambi","product_vpid":"13650891","location_name":"banglore","location_id":"1","location_query":"{\"PinCode\":\"560002\",\"LocationId\":\"29955\",\"DeliverySlot\":null,\"DM\":\"H\"};","category_id":"NA"},
             {"vendor_name":"Healthy Buddha","product_name":"Sweet Lime","product_id":"Sweet Lime","product_query":"sweet-lime-regular","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"},
-            {"vendor_name":"Organic World","product_name":"Sweet Lime","product_id":"Sweet Lime","product_query":"mosambi","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"}
+            {"vendor_name":"Organic World","product_name":"Sweet Lime","product_id":"Sweet Lime","product_query":"mosambi","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"},
+            {"vendor_name":"Gournet Garden","product_name":"Sweet Lime","product_id":"organic-sweet-lime-net-450g-550g","product_query":"organic-sweet-lime-net-450g-550g","v_id":"NA","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"}
         ]
     },
     {
@@ -143,7 +157,8 @@
         "sku_u":"1",
         "vendor_list": [
             {"vendor_name":"Big basket","product_name":"Dragon Fruit","product_id":"40008982","product_query":"fresho-dragon-fruit-1-pc","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
-            {"vendor_name":"Namdhari","product_name":"Dragon Fruit","product_id":"pid-15603465","product_query":"dragon-fruit","product_vpid":"12040453","location_name":"banglore","location_id":"1","location_query":"{\"PinCode\":\"560002\",\"LocationId\":\"29955\",\"DeliverySlot\":null,\"DM\":\"H\"};","category_id":"NA"}
+            {"vendor_name":"Namdhari","product_name":"Dragon Fruit","product_id":"pid-16931681","product_query":"dragon-fruit","product_vpid":"13650101","location_name":"banglore","location_id":"1","location_query":"{\"PinCode\":\"560002\",\"LocationId\":\"29955\",\"DeliverySlot\":null,\"DM\":\"H\"};","category_id":"NA"},
+            {"vendor_name":"Gournet Garden","product_name":"Dragon Fruit","product_id":"organic-dragon-fruit-1-pc","product_query":"organic-dragon-fruit-1-pc","v_id":"NA","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"}
         ]
     },
     {
@@ -152,7 +167,9 @@
         "sku_g":"NA",
         "sku_u":"1",
         "vendor_list": [
-            {"vendor_name":"Big basket","product_name":"Musk Melon","product_id":"40073761","product_query":"fresho-muskmelon-striped-1-pc","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"}
+            {"vendor_name":"Big basket","product_name":"Musk Melon","product_id":"40073761","product_query":"fresho-muskmelon-striped-1-pc","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
+            {"vendor_name":"Gournet Garden","product_name":"Musk Melon","product_id":"muskmelon-organic-1-pc","product_query":"muskmelon-organic-1-pc","v_id":"NA","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"},
+            {"vendor_name":"Namdhari","product_name":"Musk Melon","product_id":"pid-16934049","product_query":"musk-melon-cantaloupes-(appx-700-gm-to-1-kg)","product_vpid":"NA","location_name":"banglore","location_id":"1","location_query":"{\"PinCode\":\"560002\",\"LocationId\":\"29955\",\"DeliverySlot\":null,\"DM\":\"H\"};","category_id":"NA"}
         ]
     },
     {
@@ -161,6 +178,7 @@
         "sku_g":"500",
         "sku_u":"NA",
         "vendor_list": [
+			{"vendor_name":"Gournet Garden","product_name":"Custard Apple","product_id":"big-custard-apple-br-2-pcs","product_query":"big-custard-apple-br-2-pcs","v_id":"33380334960726","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"}	
         ]
     },
     {
@@ -171,9 +189,10 @@
         "vendor_list": [
             {"vendor_name":"Big basket","product_name":"Banana - Yelakki","product_id":"10000033","product_query":"fresho-banana-yelakki-500-g","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
             {"vendor_name":"Big basket Organic","product_name":"Banana - Yelakki","product_id":"40023474","product_query":"fresho-banana-yellaki-organically-grown-500-g","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
-            {"vendor_name":"Namdhari","product_name":"Banana - Yelakki","product_id":"pid-15603403","product_query":"banana-yelakki","product_vpid":"12040341","location_name":"banglore","location_id":"1","location_query":"{\"PinCode\":\"560002\",\"LocationId\":\"29955\",\"DeliverySlot\":null,\"DM\":\"H\"};","category_id":"NA"},
+            {"vendor_name":"Namdhari","product_name":"Banana - Yelakki","product_id":"pid-16934043","product_query":"banana-yelakki","product_vpid":"13650863","location_name":"banglore","location_id":"1","location_query":"{\"PinCode\":\"560002\",\"LocationId\":\"29955\",\"DeliverySlot\":null,\"DM\":\"H\"};","category_id":"NA"},
             {"vendor_name":"Healthy Buddha","product_name":"Banana - Yelakki","product_id":"Banana - Yelakki","product_query":"banana-yelakki","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"},
-            {"vendor_name":"Organic World","product_name":"Banana - Yelakki","product_id":"Banana - Yelakki","product_query":"banana-yalakki","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"}
+            {"vendor_name":"Organic World","product_name":"Banana - Yelakki","product_id":"Banana - Yelakki","product_query":"banana-yalakki","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"},
+            {"vendor_name":"Gournet Garden","product_name":"Banana - Yelakki","product_id":"banana-yelakki-organic-6-pc","product_query":"banana-yelakki-organic-6-pc","v_id":"NA","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"}
         ]
     },
     {
@@ -182,6 +201,7 @@
         "sku_g":"1000",
         "sku_u":"NA",
         "vendor_list": [
+			{"vendor_name":"Gournet Garden","product_name":"Banana - Pachbale","product_id":"banana-pachbale-organic-1-kg","product_query":"banana-pachbale-organic-1-kg","v_id":"NA","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"}
         ]
     },
     {
@@ -190,7 +210,8 @@
         "sku_g":"150",
         "sku_u":"NA",
         "vendor_list": [
-			{"vendor_name":"Healthy Buddha","product_name":"Strawberries","product_id":"Strawberries","product_query":"strawberry","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"}
+			{"vendor_name":"Healthy Buddha","product_name":"Strawberries","product_id":"Strawberries","product_query":"strawberry","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"},
+			{"vendor_name":"Gournet Garden","product_name":"Strawberries","product_id":"naturoponic-strawberry-net-200-g","product_query":"naturoponic-strawberry-net-200-g","v_id":"NA","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"}
         ]
     },
     {
@@ -210,8 +231,9 @@
         "vendor_list": [
             {"vendor_name":"Big basket","product_name":"Kiwi","product_id":"40150775","product_query":"fresho-kiwi-green-400-g","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
             {"vendor_name":"Nature's Basket","product_name":"Kiwi","product_id":"5348_0_0_0","product_query":"Kiwi-Imported","location_name":"banglore","location_id":"NA","location_query":"cty=KRWR48YVgJEmKvZUN3TZeQ==&ctyid=Vthxifmkz8MHpo2bEeFNUQ==&nwidn=Whv+lxHLbLjPs+Q/Tqsi3w==&pin=SA1geloX+CMrJRFXFEIeOQ==&ispn=C2W0fZgPy0KdDuCafMusSg==&isRapid=C2W0fZgPy0KdDuCafMusSg==","category_id":"NA"},
-            {"vendor_name":"Namdhari","product_name":"Kiwi","product_id":"pid-15596761","product_query":"kiwi-(pack-of-3pcs)","product_vpid":"NA","location_name":"banglore","location_id":"1","location_query":"{\"PinCode\":\"560002\",\"LocationId\":\"29955\",\"DeliverySlot\":null,\"DM\":\"H\"};","category_id":"NA"},
-			{"vendor_name":"Organic World","product_name":"Kiwi","product_id":"Kiwi","product_query":"organic-kiwi-fruit-1pc","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"}
+            {"vendor_name":"Namdhari","product_name":"Kiwi","product_id":"pid-16931575","product_query":"kiwi-(pack-of-3pcs)","product_vpid":"NA","location_name":"banglore","location_id":"1","location_query":"{\"PinCode\":\"560002\",\"LocationId\":\"29955\",\"DeliverySlot\":null,\"DM\":\"H\"};","category_id":"NA"},
+			{"vendor_name":"Organic World","product_name":"Kiwi","product_id":"Kiwi","product_query":"organic-kiwi-fruit-1pc","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"},
+			{"vendor_name":"Gournet Garden","product_name":"Kiwi","product_id":"green-zespri-kiwi-3-pc","product_query":"green-zespri-kiwi-3-pc","v_id":"NA","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"}
         ]
     },
     {
@@ -222,7 +244,8 @@
         "vendor_list": [
             {"vendor_name":"Big basket","product_name":"Blueberry","product_id":"30009286","product_query":"fresho-blueberry-125-g","location_name":"banglore","location_id":"1","location_query":"1","category_id":"NA"},
             {"vendor_name":"Nature's Basket","product_name":"Blueberry","product_id":"4789_0_0_0","product_query":"Blueberry-Exotic","location_name":"banglore","location_id":"NA","location_query":"cty=KRWR48YVgJEmKvZUN3TZeQ==&ctyid=Vthxifmkz8MHpo2bEeFNUQ==&nwidn=Whv+lxHLbLjPs+Q/Tqsi3w==&pin=SA1geloX+CMrJRFXFEIeOQ==&ispn=C2W0fZgPy0KdDuCafMusSg==&isRapid=C2W0fZgPy0KdDuCafMusSg==","category_id":"NA"},
-            {"vendor_name":"Namdhari","product_name":"Blueberry","product_id":"pid-15592833","product_query":"blueberry-(imported)-125gm","product_vpid":"NA","location_name":"banglore","location_id":"1","location_query":"{\"PinCode\":\"560002\",\"LocationId\":\"29955\",\"DeliverySlot\":null,\"DM\":\"H\"};","category_id":"NA"}
+            {"vendor_name":"Namdhari","product_name":"Blueberry","product_id":"pid-15592833","product_query":"blueberry-(imported)-125gm","product_vpid":"NA","location_name":"banglore","location_id":"1","location_query":"{\"PinCode\":\"560002\",\"LocationId\":\"29955\",\"DeliverySlot\":null,\"DM\":\"H\"};","category_id":"NA"},
+            {"vendor_name":"Gournet Garden","product_name":"Blueberry","product_id":"imported-blueberries-100-gms","product_query":"imported-blueberries-100-gms","v_id":"NA","location_name":"banglore","location_id":"banglore","location_query":"banglore","category_id":"NA"}
         ]
     },
     {
