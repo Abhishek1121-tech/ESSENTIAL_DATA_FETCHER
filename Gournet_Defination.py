@@ -14,7 +14,7 @@ class Gournet_Defination:
         try:
             #print(vendor['product_vpid'])
             if vendor['v_id'] != "NA":
-                url+=Constants.AMPERCENT+"vpid"+Constants.EQUALS+vendor['v_id']
+                url+=Constants.AMPERCENT+"variant"+Constants.EQUALS+vendor['v_id']
         except KeyError:
             print("product_vpid is not found, normal url will be used for quering "+vendor['product_name']+" || vendor is "+vendor['vendor_name'])   
         cookie_header=Constants.NONE
