@@ -30,10 +30,10 @@ class Gournet_Defination:
         #print(r.text)
         if read_response:
             soup = BeautifulSoup(read_response, 'html.parser')
-            parsed_txt=soup.find(id=config_dict[Constants.Gournet_Garden]['script_parser_id']).text.strip()
+            parsed_txt=soup.find(id=config_dict[Constants.Gournet_Garden]['script_parser_id'])
             #print(parsed_json)
-            if parsed_txt:
-                data = json.loads(parsed_txt)
+            if parsed_txt is not None:
+                data = json.loads(parsed_txt.text.strip())
                 #print(data)
                 price_vendor_list.append(Constants.Gournet_Garden.replace(Constants.UNDERSCORE,Constants.SPACE))
                 price_vendor_list.append(data[config_dict[Constants.Gournet_Garden]['price_syntax_in_json']]/Constants.NUM_100)
