@@ -30,15 +30,16 @@ class Healthy_Buddha_Defination:
             sku_value_selected=(str(soup.option).split(Constants.DASH)[Constants.NUM_0].split(Constants.GREATER_OP)[Constants.NUM_1])
             #print(sku_value_selected)
             parsed_txt=soup.findAll(config_dict[Constants.Healthy_Buddha]['script_tag_value'])
-            print(parsed_txt)
+            #print(parsed_txt)
             extracted_data=Constants.NONE
             for txt in parsed_txt:
                 if re.search(config_dict[Constants.Healthy_Buddha]['match_price_content'],txt.text):
-                    print(txt.text)
+                    #print(txt.text)
                     extracted_data=txt.text
             if extracted_data != Constants.NONE:
                 #print(extracted_data)
                 extracted_data=re.sub("},\n\n", "}\n",extracted_data)
+                print(extracted_data)
                 data = json.loads(extracted_data)
                 #print(data)
                 price_vendor_list.append(Constants.Healthy_Buddha.replace(Constants.UNDERSCORE,Constants.SPACE))
