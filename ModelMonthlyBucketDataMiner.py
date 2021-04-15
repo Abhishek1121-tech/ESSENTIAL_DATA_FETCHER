@@ -96,10 +96,10 @@ class ModelMonthlyBucketDataMiner:
             url,cookie_header,raw_data=Organic_World_Defination.getUrlWithHeaderRawData(vendor)
             vendor_price_list=Organic_World_Defination.queryWebsite(url,cookie_header,raw_data,Constants.HTTP_METHOD_TYPE_GET)
             return vendor_price_list
-        #elif vendor[Constants.STR_V_NAME] == Constants.Healthy_Buddha.replace(Constants.UNDERSCORE,Constants.SPACE):
-        #    url,cookie_header,raw_data=Healthy_Buddha_Defination.getUrlWithHeaderRawData(vendor)
-        #    vendor_price_list=Healthy_Buddha_Defination.queryWebsite(url,cookie_header,raw_data,Constants.HTTP_METHOD_TYPE_GET)
-        #    return vendor_price_list
+        elif vendor[Constants.STR_V_NAME] == Constants.Healthy_Buddha.replace(Constants.UNDERSCORE,Constants.SPACE):
+            url,cookie_header,raw_data=Healthy_Buddha_Defination.getUrlWithHeaderRawData(vendor)
+            vendor_price_list=Healthy_Buddha_Defination.queryWebsite(url,cookie_header,raw_data,Constants.HTTP_METHOD_TYPE_GET)
+            return vendor_price_list
 
         
 
