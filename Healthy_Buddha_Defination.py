@@ -17,7 +17,7 @@ class Healthy_Buddha_Defination:
         return url,cookie_header,raw_data
 
     def queryWebsite(url,cookie_header,raw_data,method_type):
-        #print(url)
+        print(url)
         #print(raw_data)
         config_dict=ConfigReader.get_confic_dict()
         return_list=[]
