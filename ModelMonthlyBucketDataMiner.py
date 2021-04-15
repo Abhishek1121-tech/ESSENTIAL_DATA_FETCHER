@@ -45,7 +45,7 @@ class ModelMonthlyBucketDataMiner:
                     if vendor_price_list:
                         for v_p in vendor_price_list:
                             vendor_list_in_dict.append((v_p[Constants.NUM_0]+Constants.DOLLAR+str(v_p[Constants.NUM_1])).split(Constants.DOLLAR))           
-                            print(vendor_list_in_dict+"Data added")
+                            print(str(vendor_list_in_dict)+"Data added")
                 data_dict_info[Constants.STR_VENDOR_LIST]=vendor_list_in_dict
                 vendor_list_in_dict=[]
                 dict_data[product_type].append(data_dict_info)
