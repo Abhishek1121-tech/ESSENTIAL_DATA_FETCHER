@@ -37,7 +37,7 @@ class Healthy_Buddha_Defination:
                     #print(txt.text)
                     extracted_data=txt.text
             if extracted_data != Constants.NONE:
-                #print(extracted_data)
+                print(extracted_data)
                 data = json.loads(extracted_data)
                 #print(data)
                 price_vendor_list.append(Constants.Healthy_Buddha.replace(Constants.UNDERSCORE,Constants.SPACE))
