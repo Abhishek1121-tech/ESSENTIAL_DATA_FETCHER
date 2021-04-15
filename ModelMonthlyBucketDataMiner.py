@@ -41,7 +41,7 @@ class ModelMonthlyBucketDataMiner:
                     vendor_name=vendor[Constants.STR_V_NAME]
                     vendor_price_list=self.vendor_url_defination_caller(vendor)
                     #print(url+""+cookie_header+""+raw_data+""+str(price))
-                    print(vendor_name)
+                    #print(vendor_name)
                     if vendor_price_list:
                         for v_p in vendor_price_list:
                             vendor_list_in_dict.append((v_p[Constants.NUM_0]+Constants.DOLLAR+str(v_p[Constants.NUM_1])).split(Constants.DOLLAR))           
