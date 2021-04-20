@@ -22,11 +22,11 @@ class Organic_World_Defination:
         config_dict=ConfigReader.get_confic_dict()
         return_list=[]
         price_vendor_list=[]
-        read_response = Utils.makeRequestUrl(url,cookie_header,raw_data,method_type).text
+        read_response = Utils.makeRequestUrl(url,cookie_header,raw_data,method_type)
         #print(r.text)
         if read_response:
             #print(read_response)
-            soup = BeautifulSoup(read_response,features="html.parser")
+            soup = BeautifulSoup(read_response.text,features="html.parser")
             parsed_txt=soup.find(config_dict[Constants.Organic_World]['meta_tag_value'],property=config_dict[Constants.Organic_World]['match_price_content'])
             #print(parsed_txt["content"])
             if parsed_txt is not None:
