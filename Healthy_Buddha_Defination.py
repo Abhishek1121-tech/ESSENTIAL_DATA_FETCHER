@@ -22,11 +22,11 @@ class Healthy_Buddha_Defination:
         config_dict=ConfigReader.get_confic_dict()
         return_list=[]
         price_vendor_list=[]
-        read_response = Utils.makeRequestUrl(url,cookie_header,raw_data,method_type).text
+        read_response = Utils.makeRequestUrl(url,cookie_header,raw_data,method_type)
         #print(r.text)
         if read_response:
             #print(read_response)
-            soup = BeautifulSoup(read_response,'html.parser')
+            soup = BeautifulSoup(read_response.text,'html.parser')
             sku_value_selected=(str(soup.option).split(Constants.DASH)[Constants.NUM_0].split(Constants.GREATER_OP)[Constants.NUM_1])
             #print(sku_value_selected)
             parsed_txt=soup.findAll(config_dict[Constants.Healthy_Buddha]['script_tag_value'])
