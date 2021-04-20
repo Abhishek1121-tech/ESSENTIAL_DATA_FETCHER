@@ -26,10 +26,10 @@ class Gournet_Defination:
         config_dict=ConfigReader.get_confic_dict()
         return_list=[]
         price_vendor_list=[]
-        read_response = Utils.makeRequestUrl(url,cookie_header,raw_data,method_type).text
+        read_response = Utils.makeRequestUrl(url,cookie_header,raw_data,method_type)
         #print(r.text)
         if read_response:
-            soup = BeautifulSoup(read_response, 'html.parser')
+            soup = BeautifulSoup(read_response.text, 'html.parser')
             parsed_txt=soup.find(id=config_dict[Constants.Gournet_Garden]['script_parser_id'])
             #print(parsed_json)
             if parsed_txt is not None:
