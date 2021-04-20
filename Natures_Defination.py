@@ -20,10 +20,10 @@ class Natures_Defination:
         config_dict=ConfigReader.get_confic_dict()
         return_list=[]
         price_vendor_list=[]
-        read_response = Utils.makeRequestUrl(url,cookie_header,raw_data,method_type).text
+        read_response = Utils.makeRequestUrl(url,cookie_header,raw_data,method_type)
         #print(read_response)
         if read_response:
-            soup = BeautifulSoup(read_response,'html.parser')
+            soup = BeautifulSoup(read_response.text,'html.parser')
             data=soup.find(config_dict[Constants.Nature_s_Basket]['element_type'],{Constants.STR_ID : config_dict[Constants.Nature_s_Basket]['element_id']})[Constants.STR_VALUE]
             #print(data)
             price_vendor_list.append(Constants.Nature_s_Basket.replace(Constants.UNDERSCORE,Constants.SPACE))
