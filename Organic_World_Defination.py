@@ -27,28 +27,35 @@ class Organic_World_Defination:
         if read_response:
             #print(read_response)
             soup = BeautifulSoup(read_response.text,features="html.parser")
-            parsed_txt=soup.find(config_dict[Constants.Organic_World]['meta_tag_value'],property=config_dict[Constants.Organic_World]['match_price_content'])
-            #print(parsed_txt["content"])
-            if parsed_txt is not None:
+            parsed_txt=soup.find_all(config_dict[Constants.Organic_World]['tag_value'])
+            #print(parsed_txt)
+            extracted_data=Constants.NONE
+            for txt in parsed_txt:
+                if re.search('var meta',txt.text):
+                    #print(txt.text)
+                    extracted_data=txt.text
+                    break
+            if extracted_data != Constants.NONE:
+                data_str=extracted_data.split("var meta = ")[Constants.NUM_1].split(';\nfor')[Constants.NUM_0]
+                data = json.loads(data_str)
+                any_one_variant=data['product']['variants'][Constants.NUM_0]
+                sku_value=any_one_variant['price']/100
+                sku_unit=any_one_variant['public_title']
+                if sku_unit is None:
+                    sku_unit=any_one_variant['name'].split(Constants.COMMA)[Constants.NUM_1]
                 price_vendor_list.append(Constants.Organic_World.replace(Constants.UNDERSCORE,Constants.SPACE))
-                price_vendor_list.append(parsed_txt[config_dict[Constants.Organic_World]['mrpprice_syntax_in_json']])
+                price_vendor_list.append(sku_value)
                 #print(price_vendor_list)
                 return_list.append(price_vendor_list)
-                parsed_txt_name_with_sku=soup.find(config_dict[Constants.Organic_World]['meta_tag_value'],property=config_dict[Constants.Organic_World]['match_name_content'])
-                sku_parse=str(parsed_txt_name_with_sku[config_dict[Constants.Organic_World]['sku_syntax_in_json']]).split(Constants.OPEN_BRC)[Constants.NUM_0].split(Constants.SPACE)
-                #print(str(parsed_txt_name_with_sku[config_dict[Constants.Organic_World]['sku_syntax_in_json']]).split(Constants.OPEN_BRC)[Constants.NUM_0])
-                sku_parse_len=len(sku_parse)
-                #sku_value=parsed_txt_name_with_sku[config_dict[Constants.Organic_World]['sku_syntax_in_json']].split(Constants.OPEN_BRC)[::-1].split(Constants.SPACE)[Constants.NUM_1][::-1]
-                sku_unit=sku_parse[sku_parse_len-Constants.NUM_1]
-                sku_value=sku_parse[sku_parse_len-Constants.NUM_2]
                 #print(sku_value+Constants.SPACE+sku_unit)
                 price_vendor_list=[]
                 price_vendor_list.append(Constants.Organic_World.replace(Constants.UNDERSCORE,Constants.SPACE)+Constants.SPACE+Constants.STR_SKU)
-                price_vendor_list.append(sku_value+Constants.SPACE+sku_unit)
+                price_vendor_list.append(sku_unit)
                 #print(price_vendor_list)
                 return_list.append(price_vendor_list)
             if config_dict[Constants.Organic_World]['discounted_is_required'] == str(True):
                 print("if True then will add the discounted price also not required in this case, you can add later")
+        print(return_list)
         return return_list
                    
             

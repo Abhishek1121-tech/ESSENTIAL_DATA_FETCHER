@@ -17,42 +17,35 @@ class Healthy_Buddha_Defination:
         return url,cookie_header,raw_data
 
     def queryWebsite(url,cookie_header,raw_data,method_type):
-        print(url)
+        #print(url)
         #print(raw_data)
         config_dict=ConfigReader.get_confic_dict()
         return_list=[]
         price_vendor_list=[]
         read_response = Utils.makeRequestUrl(url,cookie_header,raw_data,method_type)
-        #print(r.text)
+        #print(read_response.text)
         if read_response:
             #print(read_response)
             soup = BeautifulSoup(read_response.text,'html.parser')
-            sku_value_selected=(str(soup.option).split(Constants.DASH)[Constants.NUM_0].split(Constants.GREATER_OP)[Constants.NUM_1])
-            #print(sku_value_selected)
-            parsed_txt=soup.findAll(config_dict[Constants.Healthy_Buddha]['script_tag_value'])
-            #print(parsed_txt)
-            extracted_data=Constants.NONE
-            for txt in parsed_txt:
-                if re.search(config_dict[Constants.Healthy_Buddha]['match_price_content'],txt.text):
-                    #print(txt.text)
-                    extracted_data=txt.text
-            if extracted_data != Constants.NONE:
+            extracted_data=soup.find(id=config_dict[Constants.Healthy_Buddha]['id_value']).find_all('option')
+            #print(extracted_data)
+            if extracted_data :
                 #print(extracted_data)
-                regex = r'''(?<=[}\]"']),(?!\s*[{["'])'''
-                extracted_data=re.sub(regex, "", extracted_data, 0)
-                print(extracted_data)
-                data = json.loads(extracted_data)
+                data = extracted_data[Constants.NUM_0]
                 #print(data)
+                sku_unit=str(data).split(Constants.DASH+Constants.SPACE+Constants.LESSER_OP)[Constants.NUM_0].split(Constants.GREATER_OP)[Constants.NUM_1]
+                sku_value=str(data).split(Constants.DASH+Constants.SPACE+Constants.LESSER_OP)[Constants.NUM_1].split(Constants.GREATER_OP)[Constants.NUM_2].split(Constants.LESSER_OP)[Constants.NUM_0]
                 price_vendor_list.append(Constants.Healthy_Buddha.replace(Constants.UNDERSCORE,Constants.SPACE))
-                price_vendor_list.append(data[config_dict[Constants.Healthy_Buddha]['json_product_index_name']][config_dict[Constants.Healthy_Buddha]['mrpprice_syntax_in_json']])
+                price_vendor_list.append(sku_value.strip())
                 #print(price_vendor_list)
                 return_list.append(price_vendor_list) 
                 price_vendor_list=[]
                 price_vendor_list.append(Constants.Healthy_Buddha.replace(Constants.UNDERSCORE,Constants.SPACE)+Constants.SPACE+Constants.STR_SKU)
-                price_vendor_list.append(sku_value_selected)
+                price_vendor_list.append(sku_unit)
                 #print(price_vendor_list)
                 return_list.append(price_vendor_list)
             if config_dict[Constants.Healthy_Buddha]['discounted_is_required'] == str(True):
                 print("if True then will add the discounted price also not required in this case, you can add later")
-        return return_list     
+        #print(return_list)
+        return return_list    
            

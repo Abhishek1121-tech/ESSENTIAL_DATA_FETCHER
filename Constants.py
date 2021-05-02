@@ -6,6 +6,7 @@ class Constants:
 	DASH="-"
 	COLON=":"
 	GREATER_OP=">"
+	LESSER_OP="<"
 	OPEN_BRC="("
 	DOLLAR="$"
 	DOT="."
