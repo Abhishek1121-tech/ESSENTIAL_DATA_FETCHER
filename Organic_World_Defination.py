@@ -24,7 +24,7 @@ class Organic_World_Defination:
         price_vendor_list=[]
         read_response = Utils.makeRequestUrl(url,cookie_header,raw_data,method_type)
         #print(r.text)
-        if read_response:
+        if read_response and read_response != Constants.EXCEPTION_QUERY:
             #print(read_response)
             soup = BeautifulSoup(read_response.text,features="html.parser")
             parsed_txt=soup.find_all(config_dict[Constants.Organic_World]['tag_value'])

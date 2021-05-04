@@ -34,10 +34,10 @@ class Simpli_Namdharis_Defination:
         #print(v_product_id)
         return_list=[]
         price_vendor_list=[]
-        read_response = Utils.makeRequestUrl(url,cookie_header,raw_data,method_type).text
+        read_response = Utils.makeRequestUrl(url,cookie_header,raw_data,method_type)
         #print(r.text)
-        if read_response:
-            soup = BeautifulSoup(read_response,'html.parser')
+        if read_response and read_response != Constants.EXCEPTION_QUERY:
+            soup = BeautifulSoup(read_response.text,'html.parser')
             parsed_txt=soup.findAll(config_dict[Constants.Namdhari_s]['script_tag_value'])
             #print(parsed_txt)
             data_txt_list=[]

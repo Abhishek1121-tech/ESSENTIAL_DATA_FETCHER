@@ -24,7 +24,7 @@ class Bigbasket_Organic_Defination:
         price_vendor_list=[]
         read_response = Utils.makeRequestUrl(url,cookie_header,raw_data,method_type)
         #print(r.text)
-        if read_response:
+        if read_response and read_response != Constants.EXCEPTION_QUERY:
             soup = BeautifulSoup(read_response.text,'html.parser')
             parsed_txt=soup.findAll(config_dict[Constants.Big_basket_Organic]['script_tag_value'])
             #print(parsed_txt)

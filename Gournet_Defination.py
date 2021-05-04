@@ -28,7 +28,7 @@ class Gournet_Defination:
         price_vendor_list=[]
         read_response = Utils.makeRequestUrl(url,cookie_header,raw_data,method_type)
         #print(r.text)
-        if read_response:
+        if read_response and read_response != Constants.EXCEPTION_QUERY:
             soup = BeautifulSoup(read_response.text, 'html.parser')
             parsed_txt=soup.find(id=config_dict[Constants.Gournet_Garden]['script_parser_id'])
             #print(parsed_json)

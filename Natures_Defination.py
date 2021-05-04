@@ -22,7 +22,7 @@ class Natures_Defination:
         price_vendor_list=[]
         read_response = Utils.makeRequestUrl(url,cookie_header,raw_data,method_type)
         #print(read_response)
-        if read_response:
+        if read_response and read_response != Constants.EXCEPTION_QUERY:
             soup = BeautifulSoup(read_response.text,'html.parser')
             data=soup.find(config_dict[Constants.Nature_s_Basket]['element_type'],{Constants.STR_ID : config_dict[Constants.Nature_s_Basket]['element_id']})[Constants.STR_VALUE]
             #print(data)
