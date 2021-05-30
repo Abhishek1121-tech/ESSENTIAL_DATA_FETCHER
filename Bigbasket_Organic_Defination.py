@@ -34,7 +34,7 @@ class Bigbasket_Organic_Defination:
                     data_txt_split=txt.text.split(config_dict[Constants.Big_basket_Organic]['split_matched_content'].replace(Constants.DOLLAR,Constants.SPACE))
                     extracted_data=data_txt_split[Constants.NUM_1].strip()
                     #print(extracted_data)
-                    data = json.loads(extracted_data)
+                    data = json.loads(json.loads(extracted_data))
                     price_vendor_list.append(Constants.Big_basket_Organic.replace(Constants.UNDERSCORE,Constants.SPACE))
                     price_vendor_list.append(data[config_dict[Constants.Big_basket_Organic]['json_product_index_name']][config_dict[Constants.Big_basket_Organic]['json_variants_index_name']][Constants.NUM_0][config_dict[Constants.Big_basket_Organic]['mrpprice_syntax_in_json']])
                     return_list.append(price_vendor_list)
@@ -48,4 +48,5 @@ class Bigbasket_Organic_Defination:
                         price_vendor_list.append(Constants.Big_basket_organic_Discounted.replace(Constants.UNDERSCORE,Constants.SPACE))
                         price_vendor_list.append(data[config_dict[Constants.Big_basket_Organic]['json_product_index_name']][config_dict[Constants.Big_basket_Organic]['json_variants_index_name']][Constants.NUM_0][config_dict[Constants.Big_basket_Organic]['spprice_syntax_in_json']])
                         return_list.append(price_vendor_list)
+                    break
         return return_list
